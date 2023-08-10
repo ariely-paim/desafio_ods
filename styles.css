@@ -13,11 +13,6 @@
     --h3-font-size: 1rem;
 
     --font-bold: 600;
-
-    --mb-2: 1rem;
-
-    --Z-fixed: 100;
-    --z-tooltip: 10;
 }
 
 *{
@@ -25,6 +20,9 @@
     padding: 0;
 }
 
+
+
+/*
 .cabecalho{
     padding: 2% 8% 2% 8%;
 }
@@ -201,3 +199,4 @@
     width: auto;
     padding: 2%;
 }
+*/
