@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+.home{
+
+}
+
+.home__fundo{
+    background-color: #228B22;
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+}
+
+.home__fundo__titulo{
+    color: #EEF2E6;
+}
+
+.home__fundo__subtitulo{
+    color: #EEF2E6;
+    padding-left: 6%;
+    padding-right: 6%;
+}
