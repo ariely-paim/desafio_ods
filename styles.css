@@ -31,13 +31,9 @@
 
 header {
     background-color: var(--cor-secundaria);
+    background-size: cover;
     padding: 10px 10px;
     color: aliceblue;
-}
-
-.cabecalho__menu{
-    display: flex;
-    gap: 80px;
 }
 
 ul {
@@ -66,6 +62,12 @@ a {
     text-align: center;
 } 
 
+section{
+    padding: 2%;
+    float: left;
+    text-align: justify;
+}
+
 .section__subtitulo__home{
     font-family: var(--font-secundaria);
     color: var(--cor-secundaria);
@@ -90,13 +92,45 @@ a {
 .section__subtitulo__sub{
     font-family: var(--font-secundaria);
     font-size: var(--h3-font-size);
-    font-weight: var(--font-light);
     font-size: var(--mb-2);
+}
+
+.column__dois{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.column__tres{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 22%;
 }
 
 .section__home{
     padding: 3%;
     background-color: var(--cor-primaria);
+}
+
+.section__sobre{
+    background-color: var(--cor-secundaria);
+    
+}
+
+.section__conceito{
+    background-color: var(--cor-secundaria);
+}
+
+.section__objetivos{
+    background-color: var(--cor-secundaria);
+}
+
+
+.section__extras{
+    background-color: var(--cor-secundaria);
+
 }
 
 .section__texto{
