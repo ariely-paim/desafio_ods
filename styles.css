@@ -95,6 +95,11 @@ section{
     font-size: var(--mb-2);
 }
 
+.section_img{
+    text-align: center;
+    display: block;
+}
+
 .column__dois{
     float: left;
     padding: 0 5%;
