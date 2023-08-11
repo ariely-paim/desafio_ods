@@ -45,6 +45,7 @@ ul {
 }
 
 a {
+    font-family: var(--font-secundaria);
     text-decoration: none;
 }
 
@@ -96,6 +97,19 @@ a {
 .section__home{
     padding: 3%;
     background-color: var(--cor-primaria);
+}
+
+.section__texto{
+    font-family: var(--font-secundaria);
+}
+
+.rodape{
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    text-align: center;
+    width: auto;
+    padding: 2%;
 }
 
 /*
