@@ -116,6 +116,14 @@ section{
     width: 22%;
 }
 
+.column__tres__link{
+    float: left;
+    text-align: center;
+    padding: 0 8%;
+    position: relative;
+    width: 15%;
+}
+
 .column__quatro{
     float: left;
     padding: 0 4%;
@@ -147,7 +155,34 @@ section{
     text-align: center;
     width: auto;
     float: none;
-    padding: 2%;
+    padding: 1%;
+}
+
+@media all and (max-width: 768px){
+    header {
+        background-color: var(--cor-secundaria);
+        background-size: cover;
+        padding: 6% 6%;
+        color: aliceblue;
+    }
+
+    .nav__link {
+        font-family: var(--font-primaria);
+        font-size: 0.7rem;
+        font-weight: var(--font-bold);
+        color: var(--cor-primaria);
+        float: left;
+        padding: 1% 2% 0 1%;
+    }
+
+    .column__dois, .column__tres, .column__tres__link, .column__quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 2% auto;
+        float: none;
+    }
+    
 }
 
 /*
