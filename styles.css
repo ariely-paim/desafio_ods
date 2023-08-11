@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root{
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-primaria: #228B22;
+    --cor-secundaria: #EEF2E6;
+    --cor-terciaria: #539165;
     --cor-hover: #272727;
 
     --font-primaria: 'Krona One', sans-serif;
@@ -12,7 +12,16 @@
     --h1-font-size: 1.5rem;
     --h3-font-size: 1rem;
 
+    --font-light: 300;
+    --font-medium: 400;
     --font-bold: 600;
+
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
 }
 
 *{
@@ -20,7 +29,74 @@
     padding: 0;
 }
 
+header {
+    background-color: var(--cor-secundaria);
+    padding: 10px 10px;
+    color: aliceblue;
+}
 
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav__link {
+    font-family: var(--font-primaria);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-bold);
+    color: var(--cor-primaria);
+}
+
+.nav__link:hover, .active-link {
+    border-bottom: 1px solid var(--cor-terciaria);
+}
+
+.section__titulo__home{
+    font-family: var(--font-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+} 
+
+.section__subtitulo__home{
+    font-family: var(--font-secundaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.section__titulo{
+    font-family: var(--font-primaria);
+    color: var(--cor-terciaria);
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-medium);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.section__subtitulo{
+    font-family: var(--font-secundaria);
+    font-size: var(--h3-font-size);
+    font-size: var(--mb-2);
+}
+
+.section__subtitulo__sub{
+    font-family: var(--font-secundaria);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-light);
+    font-size: var(--mb-2);
+}
+
+.section__home{
+    padding: 3%;
+    background-color: var(--cor-primaria);
+}
 
 /*
 .cabecalho{
