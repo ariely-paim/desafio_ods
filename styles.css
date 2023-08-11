@@ -109,8 +109,16 @@ section{
     width: 22%;
 }
 
+.column__quatro{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
 .section__home{
     padding: 3%;
+    float: none;
     background-color: var(--cor-primaria);
 }
 
@@ -143,6 +151,7 @@ section{
     font-family: var(--font-secundaria);
     text-align: center;
     width: auto;
+    float: none;
     padding: 2%;
 }
 
