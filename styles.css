@@ -31,8 +31,7 @@
 
 header {
     background-color: var(--cor-secundaria);
-    background-size: cover;
-    padding: 10px 10px;
+    padding: 2% 6%;
     color: aliceblue;
 }
 
@@ -51,10 +50,12 @@ a {
     font-size: var(--h3-font-size);
     font-weight: var(--font-bold);
     color: var(--cor-primaria);
+    float: left;
+    padding: 0 2% 0 2%;
 }
 
 .nav__link:hover, .active-link {
-    border-bottom: 1px solid var(--cor-terciaria);
+    border-bottom: 1.5px solid var(--cor-terciaria);
 }
 
 .section__titulo__home{
@@ -128,23 +129,8 @@ section{
     background-color: var(--cor-primaria);
 }
 
-.section__sobre{
+.section__sobre, .section__conceito, .section__objetivos, .section__extras{
     background-color: var(--cor-secundaria);
-    
-}
-
-.section__conceito{
-    background-color: var(--cor-secundaria);
-}
-
-.section__objetivos{
-    background-color: var(--cor-secundaria);
-}
-
-
-.section__extras{
-    background-color: var(--cor-secundaria);
-
 }
 
 .section__texto{
@@ -161,7 +147,7 @@ section{
     text-align: center;
     width: auto;
     float: none;
-    padding: 2% 2%;
+    padding: 2%;
 }
 
 /*
