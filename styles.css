@@ -42,6 +42,7 @@ ul {
 
 a {
     font-family: var(--font-secundaria);
+    color: var(--cor-primaria);
     text-decoration: none;
 }
 
@@ -154,6 +155,7 @@ section{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
+    font-size: 1.0rem;
     text-align: center;
     width: auto;
     float: none;
