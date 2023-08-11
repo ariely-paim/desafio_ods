@@ -149,6 +149,8 @@ section{
 
 .section__texto{
     font-family: var(--font-secundaria);
+    text-indent: 3em;
+    line-height: 1.5;
 }
 
 .rodape{
